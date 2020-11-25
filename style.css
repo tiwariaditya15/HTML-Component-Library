@@ -6,6 +6,7 @@ body{
 
 :root{
     --primary-link: #00FFB8;
+    --off-white: #F3F4F6;
 }
 
 hr{
@@ -19,10 +20,6 @@ hr{
 .container-center{
     max-width: 600px;
     margin: auto;
-}
-
-.container-fluid{
-
 }
 .link{
     text-decoration: none;
@@ -51,6 +48,9 @@ hr{
     padding: 0rem 0.5rem;
 }
 
+.link-active{
+    font-weight: bold;
+}
 .navigation{
     background-color: var(--primary-link);
     color: white;
@@ -68,4 +68,32 @@ hr{
 
 .navigation .nav-pills{
    text-align: right;
+}
+
+header{
+    text-align: center;
+}
+
+.header .hero-image{
+    max-width: 400px;
+}
+.section{
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);   
+}
+
+.footer{
+    margin-top: 0.5rem;
+    padding: 1rem;
+    background-color: var(--primary-link);
+    color: white;
+    text-align: center;
+}
+
+.footer .link{
+    color: white;
 }
